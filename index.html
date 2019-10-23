@@ -1,38 +1,19 @@
 <html>
 <head>
-<style>
-body {background-color: powderblue;}
-h1   {color: blue;font-size: 50px;}
-p {color: pink; font-size: 20px;} 
-.button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: rgb(243, 111, 243);
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.button:hover {background-color: #803968}
-
-.button:active {
-  background-color: rgb(94, 1, 94);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-</style>
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js"></script>
 </head>
 <body>
 
 <h1>Sudoku</h1>
 <p>Select a difficulty.</p>
-<button class="button"> Easy </button>
+<button class="button" onclick="ShowEasy()"> Easy </button>
+<div id="myDiv">
+  This is the easy Sudoku board.
+</div>
+<a
 <button class="button"> Medium </button>
 <button class="button"> Hard </button>
-
 
 </body>
 </html>
